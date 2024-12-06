@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark mb-4" data-bs-theme="dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                height="50"
+                src="assets/img/netflix_logo.png"
+                alt="netflix_logo"
+              />
+            </a>
+    
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-muted"
+                    aria-current="page"
+                    href="#"
+                    >Home
+                    <span class="visually-hidden-focusable">(current)</span></a
+                  >
+                </li>
+    
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-muted"
+                    aria-current="page"
+                    href="javascript:void(0)"
+                    >Tv Shows</a
+                  >
+                </li>
+    
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-muted"
+                    aria-current="page"
+                    href="javascript:void(0)"
+                    >Movies</a
+                  >
+                </li>
+    
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-muted"
+                    aria-current="page"
+                    href="javascript:void(0)"
+                    >Recently Added</a
+                  >
+                </li>
+    
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-muted"
+                    aria-current="page"
+                    href="javascript:void(0)"
+                    >My List</a
+                  >
+                </li>
+              </ul>
+    
+              <div class="d-flex md-justify-content-start lg-justify-content-end">
+                <div
+                  class="search-icon mt-2 me-4 d-flex md-justify-content-start"
+                >
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-search text-muted"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                      />
+                    </svg>
+                  </div>
+                </div>
+    
+                <div class="mt-2 me-4 d-flex md-justify-content-start">
+                  <div>
+                    <img
+                      src="assets/img/kids_icon.png"
+                      alt="kids_icon"
+                      height="22"
+                      width="27"
+                    />
+                  </div>
+                </div>
+    
+                <div class="bell-icon mt-2 me-4 d-flex md-justify-content-start">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="22"
+                      height="22"
+                      fill="currentColor"
+                      class="bi bi-bell-fill text-muted"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"
+                      />
+                    </svg>
+                  </div>
+                </div>
+    
+                <div class="d-flex md-justify-content-start">
+                  <div>
+                    <img src="assets/img/avatar.png" alt="avatar" height="40" />
+                  </div>
+                  <div class="dropdown text-light mt-2">
+                    <div
+                      class="dropdown-toggle"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <div
+                        class="avatar-dropdown dropdown-menu dropdown-menu-end border-0 shadow-lg py-3"
+                        aria-label="User Account"
+                      >
+                        <div class="d-flex px-3 pb-1" style="gap: 6px">
+                          <div
+                            class="avatar-icon rounded-circle position-relative bg-light me-2"
+                          >
+                            <span
+                              class="dot bg-green position-absolute bottom-right"
+                            ></span>
+                          </div>
+                          <div class="avatar-menu-header">
+                            <img
+                              src="assets/img/avatar.png"
+                              alt="avatar"
+                              height="25"
+                            />
+                            <h5 class="font-sm mb-0 d-inline">
+                              Alessandro Incalza
+                            </h5>
+                            <p class="font-sm mb-0 text-muted">
+                              alessandro@incalza.com
+                            </p>
+                          </div>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item px-3" href="#">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-star"
+                          >
+                            <polygon
+                              points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                            ></polygon>
+                          </svg>
+                          <span class="ms-2">Manage Profiles</span></a
+                        >
+                        <a class="dropdown-item px-3" href="#">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-user"
+                          >
+                            <path
+                              d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                            ></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                          </svg>
+    
+                          <span class="ms-2">Account</span></a
+                        >
+                        <a class="dropdown-item px-3" href="#">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-settings"
+                          >
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                              d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+                            ></path>
+                          </svg>
+                          <span class="ms-2">Help Center</span></a
+                        >
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item px-3" href="#">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-power"
+                          >
+                            <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                            <line x1="12" y1="2" x2="12" y2="12"></line>
+                          </svg>
+                          <span class="ms-2">Sign Out Netflix</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="conteiner">
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col">
+                <h1>Account</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-3">
+                        <p class="text-muted">MEMBERSHIP & BILLING</p>
+                        <button class="px-3">Cancel Membership</button>
+                    </div>
+                    <div class="col d-flex justify-content-between">
+                        <div>
+                            <p class="mb-1"><b>alessandro@incalza.com</b></p>
+                            <p class="text-muted mb-1">Password: *******</p>
+                            <p class="text-muted">Phone: +39 334 3456564</p>
+                            <hr/>
+                            <p><span class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16">
+                                <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.35.35 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91q.57-.403.993-1.005a4.94 4.94 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.7 2.7 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.7.7 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016q.326.186.548.438c.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.87.87 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.35.35 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32z"/>
+                              </svg></span><b>alessandro@incalza.com</b></p>
+                        </div>
+                        <div>
+                            <a class="d-block mb-2" href="javascript:void(0)">Change account email</a>
+                            <a class="d-block mb-2" href="javascript:void(0)">Change password</a>
+                            <a class="d-block mb-2" href="javascript:void(0)">Change phone number</a>
+                            <hr/>
+                            <a class="d-block mb-2" href="javascript:void(0)">Update payment info</a>
+                            <a class="d-block mb-2" href="javascript:void(0)">Billing details</a>
+                            <a class="d-block mb-2" href="javascript:void(0)">Redeem giftcard or promo code</a>
+                            <a class="d-block mb-2" href="javascript:void(0)">Where to buy gift cards?</a>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+            </div>
+            <div class="col-lg-2"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="text-muted">PLAN DETAILS</p>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <a class="d-block" href="javascript:void(0)">Change plan</a>
+                    </div>
+                    <hr/>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="text-muted">SETTINGS</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <a class="d-block mb-2" href="javascript:void(0)">Parent Controls</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Test Participation</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Manage download devices</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Activate a device</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Recent device streaming activity</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Signout all devices</a>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    <hr/>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="text-muted">MY PROFILE</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <img src="assets/img/avatar.png" alt="avatar" height="30"/>
+                            <p class="d-inline-block"><b>Alessandro Incalza</b></p>
+                        </div>
+                        <a class="d-block mb-2" href="javascript:void(0)">Language</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Playback settings</a>
+                        <a class="d-block mb-2" href="javascript:void(0)">Subtitle appearence</a>
+                        <a href="javascript:void(0)">Viewing activity</a>
+                        <a href="javascript:void(0)">Ratings</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a class="d-block mb-2 mt-5" href="javascript:void(0)">Manage profiles</a>
+                        <a class="d-block" href="javascript:void(0)">Add profile email</a>
+                    </div>
+                    <hr/>
+                </div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
